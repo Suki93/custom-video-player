@@ -90,7 +90,7 @@ body {
     width: 50%;
     background: yellow;
     flex: 0;
-    flex-basis: 50%;
+    flex-basis: 0%;
 }
 
 input[type=range] {
@@ -147,5 +147,13 @@ input[type=range] {
     background: yellow;
     cursor: pointer;
   }
+  .full_screen {
+      color: yellow;
+      background-color: yellow;
+      max-width: 60px;
+      max-height: 60px;
+      cursor: pointer;
+  }
+
 
 
